@@ -12,11 +12,11 @@ package Model;
 public class ClientePJ extends Cliente {
     private String CNPJ;
 
-    public String getCPF() {
+    public String getCNPJ() {
         return CNPJ;
     }
 
-    public void setCPF(String CNPJ) {
+    public void setCNPJ(String CNPJ) {
         this.CNPJ = CNPJ;
     }
     
